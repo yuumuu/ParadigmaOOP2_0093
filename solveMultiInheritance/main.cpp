@@ -30,3 +30,9 @@ class Budi : public Pekerja, public Pelajar {
             cout << "Budi dibuat" << endl;
         }
 };
+
+int main() {
+    Budi a(12);
+
+    return 0;
+}
