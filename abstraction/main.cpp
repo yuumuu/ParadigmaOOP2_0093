@@ -16,3 +16,11 @@ class Abstraksi {
             cout << "y = " << y << endl;
         }
 };
+
+int main() {
+    Abstraksi obj;
+    obj.setVar("Yogyakarta", "Kampus");
+    obj.display();
+    
+    return 0;
+}
