@@ -8,7 +8,8 @@ int main() {
     int count = 10;
 
     for (int i = 0; i < count; i++) {
-        
+        if (i < count)
+            teks += bintang;
         cout << teks << endl;
     }
 }

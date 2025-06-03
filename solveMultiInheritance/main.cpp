@@ -16,3 +16,10 @@ class Pekerja : public Orang {
             cout << "Pekerja dibuat" << endl;
         }
 };
+
+class Pelajar : public Orang {
+    public:
+        Pelajar(int pUmur) : Orang(pUmur) {
+            cout << "Pelajar dibuat" << endl;
+        }
+};
