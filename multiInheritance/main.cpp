@@ -23,3 +23,10 @@ class Pelajar : virtual public Orang {
             cout << "Pelajar dibuat" << endl;
         }
 };
+
+class Budi : public Pekerja, public Pelajar {
+    public:
+        Budi(int pUmur) : Pekerja(pUmur), Pelajar(pUmur), Orang(pUmur) {
+            cout << "Budi dibuat" << endl;
+        }
+};
