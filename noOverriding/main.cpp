@@ -14,3 +14,10 @@ class Derived : public Base {
             cout << "Halo, saya Function dari Derived Class" << endl;
         }
 };
+
+int main() {
+    Derived a;
+    a.perkenalan();
+
+    return 0;
+}
