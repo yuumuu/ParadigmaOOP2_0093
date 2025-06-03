@@ -10,24 +10,15 @@ class Segitiga {
 
 class SamaKaki : public Segitiga {
     public:
-        void create(int tinggi) {
-            for (int i = 1; i <= tinggi; i++) {
-                for (int j = 1; j <= tinggi - i; j++) {
-                    spasi += " ";
-                }
-                for (int k = 1; k <= 2 * i - 1; k++) {
-                    bintang += "*";
-                }
-                teks = spasi + bintang;
-                cout << teks << endl;
-                spasi = "";
-                bintang = "";
+        void create(int t) {
+            for (int i = 0; i < t; i++) {
+                
             }
         }
 };
 
 int main() {
     SamaKaki segitiga;
-    segitiga.create(5);
+    segitiga.create(10);
     return 0;
 }
